@@ -29,7 +29,7 @@ const Home = () => {
       {/* ✅ Main Content (Centered) */}
       <main className="flex-grow">
         {/* Hero Section */}
-        <header className="bg-gray-900 text-white py-20 text-center pt-24">
+        <header className="flex flex-col justify-center bg-gray-900 text-white h-[400px] text-center rounded-b-[200px]">
         <h1 className="text-4xl md:text-5xl font-bold">Grading with AI</h1>
           <p className="mt-4 text-lg text-gray-300">
             Automate the grading process with AI-powered handwriting recognition.
